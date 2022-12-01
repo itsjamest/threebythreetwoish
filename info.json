@@ -1,0 +1,46 @@
+{
+    "keyboard_name": "JT Keeb",
+    "manufacturer": "JT",
+    "url": "",
+    "maintainer": "qmk",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0000",
+        "device_version": "1.0.0"
+    },
+    "processor": "atmega32u4",
+    "bootloader": "caterina",
+    "matrix_pins": {
+        "rows": ["E6", "F5", "F6"],
+        "cols": ["B5", "B4", "D7"]
+    },
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "mousekey": true,
+        "extrakey": true,
+        "console": false,
+        "command": false,
+        "nkro": false,
+        "backlight": false,
+        "rgblight": false,
+        "audio": false,
+        "key_lock": false
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "K00 (E6,B5)", "matrix": [0, 0], "x": 0, "y": 0},
+                {"label": "K01 (E6,B4)", "matrix": [0, 1], "x": 1, "y": 0},
+                {"label": "K02 (E6,D7)", "matrix": [0, 2], "x": 2, "y": 0},
+                {"label": "K10 (F5,B5)", "matrix": [1, 0], "x": 0, "y": 1},
+                {"label": "K11 (F5,B4)", "matrix": [1, 1], "x": 1, "y": 1},
+                {"label": "K12 (F5,D7)", "matrix": [1, 2], "x": 2, "y": 1},
+                {"label": "K20 (F6,B5)", "matrix": [2, 0], "x": 0, "y": 2},
+                {"label": "K21 (F6,B4)", "matrix": [2, 1], "x": 1, "y": 2},
+                {"label": "K22 (F6,D7)", "matrix": [2, 2], "x": 2, "y": 2}
+           ]
+        }
+    },
+    "meta": "https://noroadsleft.github.io/kbf_qmk_converter/"
+}
